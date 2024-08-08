@@ -1,0 +1,83 @@
+{
+    "customers": [
+      {
+        "uid": "uuid-1",
+        "first_name": "Asma",
+        "second_name": "Eleuchi",
+        "address": "123 Main St",
+        "permit_number": "AB123456"
+      },
+      {
+        "uid": "uuid-2",
+        "first_name": "jeremy",
+        "second_name": "Smith",
+        "address": "500 sgh ha",
+        "permit_number": "DA259012"
+      },
+      {
+        "uid": "uuid-3",
+        "first_name": "sam",
+        "second_name": "colo",
+        "address": "456 Elm St",
+        "permit_number": "CD789012"
+      },
+      {
+        "uid": "uuid-4",
+        "first_name": "delo",
+        "second_name": "sima",
+        "address": "983 nimi rs",
+        "permit_number": "CD789018"
+      },
+      {
+        "uid": "uuid-5",
+        "first_name": "camilia",
+        "second_name": "dami",
+        "address": "25 kdh th",
+        "permit_number": "CD754012"
+      },
+      {
+        "uid": "uuid-6",
+        "first_name": "david",
+        "second_name": "dima",
+        "address": "459 emg sf",
+        "permit_number": "AB741012"
+      },
+      {
+        "uid": "uuid-7",
+        "first_name": "lina",
+        "second_name": "mano",
+        "address": "756 Ell ql",
+        "permit_number": "AB789415"
+      }
+    ],
+
+
+
+    "vehicles": [
+      {
+        "uid": "uuid-A1",
+        "licence_plate": "XYZ1234",
+        "informations": "Some notes about the vehicle",
+        "km": 10000
+      },
+      {
+        "uid": "uuid-A2",
+        "licence_plate": "ABC5642",
+        "informations": "Other notes",
+        "km": 30000
+      },
+      {
+        "uid": "uuid-A3",
+        "licence_plate": "ABC5675",
+        "informations": "Other notes",
+        "km": 40000
+      },
+      {
+        "uid": "uuid-A4",
+        "licence_plate": "ABC4178",
+        "informations": "Other notes",
+        "km": 50000
+      }
+    ]
+  }
+  
