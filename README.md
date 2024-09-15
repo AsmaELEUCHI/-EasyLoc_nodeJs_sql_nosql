@@ -19,7 +19,28 @@ EasyLoc' est une entreprise de location de voitures basée à Lyon, qui souhaite
     - Vehicle : Création, modification, suppression, et recherche des documents véhicules.
   - **Requêtes MongoDB :** Recherches basées sur le nom, le numéro d'immatriculation, et le kilométrage des véhicules.
 ## Installation
-1. **Clonez le dépôt** :
-   Ouvrez PowerShell et exécutez la commande suivante pour cloner le dépôt depuis GitHub :
-   ```powershell
-   
+  1. **Clonez le dépôt** :
+     Ouvrez PowerShell et exécutez la commande suivante pour cloner le dépôt depuis GitHub :
+     ```
+     git clone https://github.com/AsmaELEUCHI/EasyLoc.git
+     ```
+  
+  2. **Accédez au dossier du projet** :
+     ```
+     cd EasyLoc
+     ```
+
+  3. **Installer les dépendances** :
+      ```
+      npm install
+      ```
+  4. **Configurer les bases de données** :
+   Mettre à jour le fichier .env avec vos informations de connexion pour SQL Server et MongoDB.
+
+  5. **Configurer les bases de données** :
+     ```
+     npm start
+     ```
+## Utilisation
+ - Pour visualiser les tables dans SQL Server : Utilisez SQL Server Management Studio (SSMS)
+ - Pour voir les collections dans MongoDB : Utilisez les commandes shell
